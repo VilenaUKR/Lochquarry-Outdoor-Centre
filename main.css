@@ -193,7 +193,7 @@ footer p {
   color: #aa361b;
 }
 
-@media (max-width: 995px) {
+@media (max-width: 1200px) {
   .logo {
     margin: 10px;
   }
@@ -258,10 +258,122 @@ footer p {
     font-size: smaller;
   }
 
+  footer h3 {
+    text-align: left;
+    color: #285ade;
+    background-color: #12de973d;
+    padding: 5px 12px;
+    font-size: 22px;
+    margin: 20px 0;
+    font-weight: 900;
+  }
+
   .staffpic {
     width: 70%;
     margin: 10px 0;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media (max-width: 415px) {
+  nav a {
+    font-size: 17px;
+  }
+
+  #main h1 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  #main h2 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  #main h3 {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  #main p {
+    font-size: 17px;
+    letter-spacing: 1px;
+  }
+
+  #main h4 {
+    color: #aa361b;
+    font-size: 17px;
+  }
+
+  #main .staff {
+    font-size: 16px;
+  }
+
+  #main .innerlistRight,
+  #main .innerlistLeft {
+    font-size: 14px;
+  }
+  #main .innerlistRight li,
+  #main .innerlistLeft li {
+    padding-left: 15%;
+  }
+
+  footer .testimonials {
+    line-height: 18px;
+    font-size: 14px;
+  }
+
+  footer p {
+    padding: 8px;
+  }
+
+  footer h3 {
+    font-size: 17px;
+    margin: 15px 0;
+    font-weight: 700;
+  }
+
+  .staffpic {
+    width: 70%;
+    margin: 10px 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sectionpic,
+  .activspic {
+    width: 110%;
+  }
+
+  .sectionpic,
+  .staffpic,
+  .activspic {
+    border: 1px solid #dea007;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0.5px 2px #dea007;
+  }
+}
+
+@media (width: 280px) {
+  #main .innerlistRight,
+  #main .innerlistLeft {
+    font-size: 12px;
+  }
+  #main .innerlistRight li,
+  #main .innerlistLeft li {
+    padding-left: 5%;
+  }
+  .sectionpic,
+  .activspic {
+    width: 125%;
+  }
+
+  .sectionpic,
+  .staffpic,
+  .activspic {
+    border: 1px solid #dea007;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0.5px 2px #dea007;
   }
 }
