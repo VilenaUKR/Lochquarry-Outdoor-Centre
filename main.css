@@ -37,7 +37,7 @@ nav a {
   font-size: 22px;
   padding-left: 2%;
   padding-right: 2%;
-  font-weight: 600;
+  font-weight: 800;
 }
 
 nav a:hover {
@@ -46,7 +46,7 @@ nav a:hover {
 }
 
 nav a.active {
-  font-weight: 700;
+  font-weight: 800;
   color: #1d3e99;
 }
 
