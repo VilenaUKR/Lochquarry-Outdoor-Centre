@@ -1,0 +1,267 @@
+/* Colours Used:
+blue #285ADE
+dark-blue #1d3e99
+orange #DE5333
+light-blue #1DB7DE
+sand #DEA007
+light-sand #f6f4e9
+light-green #12DE96
+#9bf7d7, 
+#96def0
+*/
+
+body {
+  font-family: inherit, sans-serif;
+  background-color: #f0f9f891 !important;
+  display: block;
+}
+
+.logo {
+  margin: 20px;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  text-align: center;
+  padding: 12px 0;
+  background-color: #dea007;
+}
+
+nav a {
+  color: #aa361b;
+  text-decoration: none;
+  font-size: 22px;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: #285ade;
+  text-decoration: underline;
+}
+
+nav a.active {
+  font-weight: 700;
+  color: #1d3e99;
+}
+
+.mainPhoto {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 !important;
+}
+
+#main p,
+h1,
+h2 {
+  line-height: 150%;
+}
+
+#main h1 {
+  text-align: center;
+  color: #aa361b;
+  padding: 12px;
+  background-color: #dea007;
+  font-size: 27px;
+  font-weight: 900;
+}
+#main p {
+  color: #1d3e99;
+  font-size: 19px;
+  text-align: justify;
+  margin: 20px 0;
+  letter-spacing: 1.1px;
+}
+
+#main h2 {
+  text-align: center;
+  color: #285ade;
+  background-color: #12de973d;
+  padding: 12px 0px;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+#main h3 {
+  text-align: center;
+  color: #285ade;
+  font-size: 20px;
+  margin: 10px 0;
+  font-weight: 900;
+}
+
+#main h4 {
+  text-align: center;
+  color: #aa361b;
+  font-size: 18px;
+  margin: 10px 0 -10px;
+  font-weight: 700;
+}
+
+#main .staff {
+  text-align: center;
+  color: #1d3e99;
+  font-size: 18px;
+  list-style: none;
+  padding: 0;
+}
+
+#main .innerlistRight,
+#main .innerlistLeft {
+  margin-top: 20px;
+  color: #1d3e99;
+  font-size: 22px;
+  list-style: none;
+  font-weight: 700;
+  background-image: url(/images/body.png),
+    linear-gradient(110deg, #a8f9dc, #a9e5f5);
+  -webkit-background-clip: border-box;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px 5px #7dc9ae;
+  padding: 10px;
+  line-height: 200%;
+}
+#main .innerlistRight li,
+#main .innerlistLeft li {
+  text-align: left;
+  padding-left: 40%;
+}
+
+#main .innerlistRight li::before,
+#main .innerlistLeft li::before {
+  content: "💦";
+  display: inline-block;
+  margin-left: -1em;
+  font-size: smaller;
+}
+
+.sectionpic,
+.staffpic,
+.activspic {
+  width: 60%;
+  display: block;
+  margin: 20px 0;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #dea007;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px 5px #dea007;
+}
+
+.sectionpic,
+.activspic {
+  width: 100%;
+}
+
+footer h3 {
+  text-align: left;
+  color: #285ade;
+  background-color: #12de973d;
+  padding: 5px 12px;
+  font-size: 22px;
+  margin: 20px 0;
+  font-weight: 900;
+}
+
+footer .testimonials {
+  border: 3px solid #12de973d;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 5px #09714d3d;
+  list-style: none;
+  line-height: 30px;
+  text-align: left;
+  color: #1d3e99;
+  font-size: 18px;
+  padding: 10px;
+}
+
+footer p {
+  text-align: center;
+  background-color: #dea007;
+  padding: 12px;
+  color: #aa361b;
+}
+
+@media (max-width: 995px) {
+  .logo {
+    margin: 10px;
+  }
+
+  nav {
+    padding: 8px 0;
+  }
+
+  nav a {
+    font-size: 18px;
+  }
+
+  #main h1 {
+    padding: 8px;
+    font-size: 24px;
+    font-weight: 800;
+  }
+
+  #main h2 {
+    padding: 8px 0px;
+    font-size: 21px;
+    font-weight: 800;
+  }
+
+  #main h3 {
+    font-size: 18px;
+    font-weight: 800;
+  }
+
+  #main p {
+    font-size: 17px;
+    letter-spacing: 1px;
+  }
+
+  #main h4 {
+    color: #aa361b;
+    font-size: 17px;
+  }
+
+  #main .staff {
+    font-size: 16px;
+  }
+
+  #main .innerlistRight,
+  #main .innerlistLeft {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 110%;
+  }
+  #main .innerlistRight li,
+  #main .innerlistLeft li {
+    padding-left: 35%;
+  }
+
+  footer .testimonials {
+    line-height: 25px;
+    font-size: 16px;
+  }
+
+  footer p {
+    padding: 10px;
+    font-size: smaller;
+  }
+
+  .staffpic {
+    width: 70%;
+    margin: 10px 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
