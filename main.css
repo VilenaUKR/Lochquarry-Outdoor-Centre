@@ -9,6 +9,7 @@
 #a9e5f5
 #7dc9ae
 #09714d3d
+#9a2b12
 */
 
 body {
@@ -32,7 +33,7 @@ nav {
 }
 
 nav a {
-  color: #aa361b;
+  color: #9a2b12;
   text-decoration: none;
   font-size: 22px;
   padding-left: 2%;
@@ -71,7 +72,7 @@ h2 {
 
 #main h1 {
   text-align: center;
-  color: #aa361b;
+  color: #9a2b12;
   padding: 12px;
   background-color: #dea007;
   font-size: 27px;
@@ -190,8 +191,8 @@ footer .testimonials {
 footer p {
   text-align: center;
   background-color: #dea007;
-  padding: 12px;
-  color: #aa361b;
+  padding: 14px;
+  color: #9a2b12;
 }
 
 @media (max-width: 1200px) {
